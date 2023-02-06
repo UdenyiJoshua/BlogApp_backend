@@ -127,3 +127,43 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+Example of such a file which ignores any compiled source code (.pyc), compressed file (.zip, .rar, .tar), logs and databases (.db, .log, .sql) and virtual environment files (Scripts, Lib, Include) and whole folders (env - name of my virtualenv folder):
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.db
+*.log
+*.sql
+*.sqlite
+
+# virtualenv generated files #
+##############################
+Scripts
+Lib
+Include
+
+# virtualenv folders #
+######################
+blog-env
